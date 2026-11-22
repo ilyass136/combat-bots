@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "botmod",
+  "version": "${version}",
+  "name": "Combat Bots",
+  "description": "Spawn player-like bots with skins that fight, hunt, guard and build houses.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["com.botmod.BotMod"],
+    "client": ["com.botmod.client.BotModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
